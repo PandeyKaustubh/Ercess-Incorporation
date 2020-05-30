@@ -1,0 +1,2303 @@
+2020-04-19 15:59:05,488:WARNING:Not Found: /favicon.ico
+2020-04-19 16:23:26,081:WARNING:Not Found: /favicon.ico
+2020-04-19 16:47:00,312:WARNING:Not Found: /favicon.ico
+2020-04-19 16:58:12,526:WARNING:Not Found: /adduser/
+2020-04-19 16:58:29,693:WARNING:Not Found: /adduser/
+2020-04-19 17:04:00,118:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 17:04:00,205:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 17:24:23,362:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 17:24:23,426:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 17:25:17,527:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 17:25:17,626:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 17:26:34,849:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 17:26:34,914:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 17:29:01,575:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 17:29:01,713:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 17:29:31,973:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 17:29:32,014:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 17:29:57,721:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 17:29:57,757:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 17:31:46,870:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 17:31:47,001:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 18:09:33,039:ERROR:Internal Server Error: /admin-site/event-details/36989
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ajitesh/ercess-live/ercess-live/admin_panel/views.py", line 1744, in get
+    discount_for_event = TicketDiscount.objects.filter(event_id=event_id)
+NameError: name 'TicketDiscount' is not defined
+2020-04-19 18:09:35,006:WARNING:Not Found: /favicon.ico
+2020-04-19 18:10:04,800:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 18:10:04,801:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 18:11:23,427:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 18:11:23,540:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 18:18:17,591:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 18:18:17,595:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 18:20:14,760:ERROR:Internal Server Error: /admin-site/event-details/36989
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ajitesh/ercess-live/ercess-live/admin_panel/views.py", line 1745, in get
+    print(discount_for_event.values())
+NameError: name 'discount_for_event' is not defined
+2020-04-19 18:20:15,200:ERROR:Internal Server Error: /admin-site/event-details/36989
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ajitesh/ercess-live/ercess-live/admin_panel/views.py", line 1745, in get
+    print(discount_for_event.values())
+NameError: name 'discount_for_event' is not defined
+2020-04-19 18:20:37,947:ERROR:Internal Server Error: /admin-site/event-details/36989
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ajitesh/ercess-live/ercess-live/admin_panel/views.py", line 1747, in get
+    ticket_id = discounts['ticket_id']
+TypeError: 'TicketDiscounts' object is not subscriptable
+2020-04-19 18:21:05,570:ERROR:Internal Server Error: /admin-site/event-details/36989
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ajitesh/ercess-live/ercess-live/admin_panel/views.py", line 1747, in get
+    ticket_id = discounts[0]['ticket_id']
+TypeError: 'TicketDiscounts' object does not support indexing
+2020-04-19 18:21:31,596:ERROR:Internal Server Error: /admin-site/event-details/36989
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ajitesh/ercess-live/ercess-live/admin_panel/views.py", line 1757, in get
+    'userDetailsInfo':userDetailsInfo, 'custom_question_list':builder_list_final, 's_p_tkt':s_p_tkt, 'short_url':short_url,'discounts':discount_for_event})
+NameError: name 'discount_for_event' is not defined
+2020-04-19 18:23:22,680:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 18:23:22,701:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 18:29:11,298:ERROR:Internal Server Error: /admin-site/event-details/36989
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ajitesh/ercess-live/ercess-live/admin_panel/views.py", line 1746, in get
+    for discounts in discount_list:
+NameError: name 'discount_list' is not defined
+2020-04-19 18:29:38,864:ERROR:Internal Server Error: /admin-site/event-details/36989
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ajitesh/ercess-live/ercess-live/admin_panel/views.py", line 1747, in get
+    get_ticket_name = Tickets.objects.get(ticket_id=discounts.ticket_id)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/db/models/query.py", line 390, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/db/models/query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/db/models/query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1164, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1028, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/db/models/sql/query.py", line 1389, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'ticket_id' into field. Choices are: active, ercess_fee, event_id, expiry_date, max_qty, min_qty, other_charges, other_charges_type, qty_left, ticket_label, ticket_msg, ticket_name, ticket_price, ticket_qty, ticket_start_date, tickets_id, transaction_fee
+2020-04-19 18:32:18,319:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 18:32:18,399:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 18:35:46,077:ERROR:Internal Server Error: /admin-site/event-details/36989
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 154, in _get_response
+    response = response.render()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/renderers.py", line 171, in render
+    template = self.resolve_template(template_names)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/renderers.py", line 181, in resolve_template
+    return loader.select_template(template_names)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/defaulttags.py", line 951, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/defaulttags.py", line 810, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 420: 'else', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+2020-04-19 18:36:06,383:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 18:36:06,449:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 18:42:19,140:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 18:42:19,246:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 18:42:54,277:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 18:42:54,331:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 18:43:09,409:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 18:43:09,509:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 18:45:01,512:ERROR:Internal Server Error: /admin-site/event-details/36989
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/smartif.py", line 175, in translate_token
+    op = OPERATORS[token]
+KeyError: 'discount.active==1'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 154, in _get_response
+    response = response.render()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/renderers.py", line 171, in render
+    template = self.resolve_template(template_names)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/renderers.py", line 181, in resolve_template
+    return loader.select_template(template_names)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/defaulttags.py", line 951, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/defaulttags.py", line 810, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/defaulttags.py", line 950, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/defaulttags.py", line 883, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/smartif.py", line 166, in __init__
+    mapped_tokens.append(self.translate_token(token))
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/smartif.py", line 177, in translate_token
+    return self.create_var(token)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/defaulttags.py", line 886, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '==1' from 'discount.active==1'
+2020-04-19 18:46:18,234:ERROR:Internal Server Error: /admin-site/event-details/36989
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/smartif.py", line 175, in translate_token
+    op = OPERATORS[token]
+KeyError: 'discount.active==1'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 154, in _get_response
+    response = response.render()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/renderers.py", line 171, in render
+    template = self.resolve_template(template_names)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/renderers.py", line 181, in resolve_template
+    return loader.select_template(template_names)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/defaulttags.py", line 951, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/defaulttags.py", line 810, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/defaulttags.py", line 950, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/defaulttags.py", line 883, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/smartif.py", line 166, in __init__
+    mapped_tokens.append(self.translate_token(token))
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/smartif.py", line 177, in translate_token
+    return self.create_var(token)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/defaulttags.py", line 886, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '==1' from 'discount.active==1'
+2020-04-19 18:46:35,492:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 18:46:35,539:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 18:46:59,510:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 18:46:59,633:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 18:57:15,213:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 18:57:15,387:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 19:06:44,085:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 19:06:44,137:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 19:08:10,091:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 19:08:10,100:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 19:12:34,614:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 19:12:34,661:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 19:13:20,299:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 19:13:20,428:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 19:14:14,871:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 19:14:14,903:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 19:14:43,899:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 19:14:43,985:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 19:15:37,989:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 19:15:37,990:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 19:16:21,620:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 19:16:21,705:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 19:18:36,837:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 19:18:36,924:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 19:20:15,132:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 19:20:15,229:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 19:21:47,433:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 19:21:47,468:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 19:22:10,185:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 19:22:10,282:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 19:23:44,971:ERROR:Internal Server Error: /admin-site/event-details/36989
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 154, in _get_response
+    response = response.render()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/renderers.py", line 171, in render
+    template = self.resolve_template(template_names)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/renderers.py", line 181, in resolve_template
+    return loader.select_template(template_names)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/defaulttags.py", line 951, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 1492: 'endblock', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag?
+2020-04-19 19:23:46,963:WARNING:Not Found: /favicon.ico
+2020-04-19 19:24:00,275:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 19:24:00,332:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 19:24:42,555:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 19:24:42,760:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 19:25:29,490:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 19:25:29,532:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 19:26:18,981:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 19:26:18,991:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 19:26:39,152:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 19:26:39,240:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 19:28:13,043:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 19:28:13,191:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 19:28:34,889:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 19:28:34,970:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 19:45:07,056:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 19:45:07,069:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 19:46:27,987:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 19:46:28,013:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 20:15:03,013:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 20:15:03,052:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 20:15:20,529:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 20:15:20,697:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 20:46:09,153:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 20:46:09,182:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 20:46:58,467:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 20:46:58,476:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 20:50:25,441:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 20:50:25,498:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 20:50:36,761:WARNING:Method Not Allowed: /admin-site/event-details/36989
+2020-04-19 20:58:39,721:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 20:58:39,769:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 20:58:46,655:WARNING:Not Found: /admin-site/event-details/{% url 'details'pk='discount.event_id'}
+2020-04-19 20:59:42,631:WARNING:Not Found: /admin-site/event-details/{% url 'details'pk='discount.event_id'}
+2020-04-19 20:59:51,108:WARNING:Not Found: /admin-site/event-details/{% url 'details'pk='discount.event_id'}
+2020-04-19 21:00:21,664:WARNING:Not Found: /admin-site/event-details/{% url 'details'pk='discount.event_id'}
+2020-04-19 21:00:42,037:WARNING:Not Found: /admin-site/event-details/{% url 'details'pk='discount.event_id'}
+2020-04-19 21:02:12,802:WARNING:Not Found: /admin-site/event-details/{% url 'details'pk='discount.event_id'}
+2020-04-19 21:04:23,767:WARNING:Not Found: /admin-site/event-details/{% url 'details'pk='discount.event_id'}
+2020-04-19 21:04:50,398:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 21:04:50,484:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 21:04:54,785:WARNING:Not Found: /admin-site/event-details/details
+2020-04-19 21:04:55,594:WARNING:Not Found: /favicon.ico
+2020-04-19 21:06:57,002:ERROR:Internal Server Error: /admin-site/event-details/36989
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/urls/base.py", line 75, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'admin_panel'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 154, in _get_response
+    response = response.render()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/renderers.py", line 178, in render
+    return template.render(context, request=request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/test/utils.py", line 96, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/test/utils.py", line 96, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/urls/base.py", line 86, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'admin_panel' is not a registered namespace
+2020-04-19 21:06:59,783:WARNING:Not Found: /favicon.ico
+2020-04-19 21:07:15,940:ERROR:Internal Server Error: /admin-site/event-details/36989
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 154, in _get_response
+    response = response.render()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/renderers.py", line 178, in render
+    return template.render(context, request=request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/test/utils.py", line 96, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/test/utils.py", line 96, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/urls/resolvers.py", line 622, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'details' not found. 'details' is not a valid view function or pattern name.
+2020-04-19 21:07:18,978:WARNING:Not Found: /favicon.ico
+2020-04-19 21:09:10,342:ERROR:Internal Server Error: /admin-site/event-details/36989
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/urls/base.py", line 75, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'admin_panel'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 154, in _get_response
+    response = response.render()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/renderers.py", line 178, in render
+    return template.render(context, request=request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/test/utils.py", line 96, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/test/utils.py", line 96, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/urls/base.py", line 86, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'admin_panel' is not a registered namespace
+2020-04-19 21:09:31,056:ERROR:Internal Server Error: /admin-site/event-details/36989
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 154, in _get_response
+    response = response.render()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/renderers.py", line 178, in render
+    return template.render(context, request=request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/test/utils.py", line 96, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/test/utils.py", line 96, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/urls/resolvers.py", line 622, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'details' not found. 'details' is not a valid view function or pattern name.
+2020-04-19 21:11:19,599:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 21:11:19,675:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 21:11:24,549:WARNING:Method Not Allowed: /admin-site/event-details/36989
+2020-04-19 21:11:53,669:ERROR:Internal Server Error: /admin-site/event-details/36989
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: post() got an unexpected keyword argument 'event_id'
+2020-04-19 21:15:41,701:ERROR:Internal Server Error: /admin-site/event-details/36989
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: post() got an unexpected keyword argument 'event_id'
+2020-04-19 21:16:07,789:ERROR:Internal Server Error: /admin-site/event-details/36989
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: post() got an unexpected keyword argument 'event_id'
+2020-04-19 21:16:30,825:ERROR:Internal Server Error: /admin-site/event-details/36989
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 154, in _get_response
+    response = response.render()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/renderers.py", line 178, in render
+    return template.render(context, request=request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/test/utils.py", line 96, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/test/utils.py", line 96, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/urls/resolvers.py", line 622, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'details' with keyword arguments '{'table_id': 57}' not found. 1 pattern(s) tried: ['admin-site/event\\-details\\/(?P<event_id>[0-9]+)$']
+2020-04-19 21:16:33,386:WARNING:Not Found: /favicon.ico
+2020-04-19 21:19:38,141:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 21:19:39,050:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 21:19:46,266:ERROR:Internal Server Error: /admin-site/event-details/36989
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ajitesh/ercess-live/ercess-live/admin_panel/views.py", line 1775, in post
+    return redirect('admin-panel:details')
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/shortcuts.py", line 58, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/shortcuts.py", line 148, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/urls/resolvers.py", line 622, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'details' with no arguments not found. 1 pattern(s) tried: ['admin-site/event\\-details\\/(?P<event_id>[0-9]+)$']
+2020-04-19 21:19:48,133:WARNING:Not Found: /favicon.ico
+2020-04-19 21:20:02,508:ERROR:Internal Server Error: /admin-site/event-details/36989
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ajitesh/ercess-live/ercess-live/admin_panel/views.py", line 1775, in post
+    return redirect('admin-panel:details')
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/shortcuts.py", line 58, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/shortcuts.py", line 148, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/urls/resolvers.py", line 622, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'details' with no arguments not found. 1 pattern(s) tried: ['admin-site/event\\-details\\/(?P<event_id>[0-9]+)$']
+2020-04-19 21:20:14,787:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 21:20:14,847:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 21:22:25,643:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 21:22:25,766:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 21:22:39,025:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 21:22:39,089:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 21:23:30,722:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 21:23:30,814:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 21:24:08,794:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 21:24:08,928:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 21:24:20,097:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 21:24:20,146:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 21:25:44,523:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 21:25:44,633:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 21:26:02,062:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 21:26:02,107:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 21:26:43,274:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 21:26:43,328:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 22:25:09,113:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 22:25:09,155:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 22:25:39,488:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 22:25:39,581:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 22:25:51,921:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 22:25:52,104:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 22:27:04,247:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 22:27:04,331:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 22:27:23,314:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 22:27:23,351:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 22:28:55,000:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 22:28:55,001:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 22:29:12,771:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 22:29:12,900:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 22:31:21,330:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 22:31:21,388:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 22:31:41,725:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 22:31:41,791:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 22:36:32,933:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 22:36:33,035:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 22:36:44,758:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 22:36:44,803:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 22:37:58,060:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 22:37:58,142:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 22:38:16,840:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 22:38:16,941:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 22:49:02,210:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 22:49:02,268:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 22:49:13,226:ERROR:Internal Server Error: /admin-site/event-details/36989
+Traceback (most recent call last):
+  File "/home/ajitesh/ercess-live/ercess-live/admin_panel/views.py", line 1320, in get_discount_item
+    return TicketDiscounts.objects.get(event_id=event_id)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+dashboard.models.TicketDiscounts.DoesNotExist: TicketDiscounts matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ajitesh/ercess-live/ercess-live/admin_panel/views.py", line 1777, in post
+    get_discount_item = self.get_discount_item(table_id)
+  File "/home/ajitesh/ercess-live/ercess-live/admin_panel/views.py", line 1322, in get_discount_item
+    return Http404
+NameError: name 'Http404' is not defined
+2020-04-19 22:49:15,339:WARNING:Not Found: /favicon.ico
+2020-04-19 22:53:12,013:ERROR:Internal Server Error: /admin-site/event-details/36989
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ajitesh/ercess-live/ercess-live/admin_panel/views.py", line 1777, in post
+    get_ticket = Tickets.objects.get(ticket_name=ticket_name)
+NameError: name 'ticket_name' is not defined
+2020-04-19 22:57:24,947:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 22:57:25,011:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 22:57:47,316:ERROR:Internal Server Error: /admin-site/event-details/36989
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ajitesh/ercess-live/ercess-live/admin_panel/views.py", line 1781, in post
+    ticket_name : get_ticket.table_id,
+AttributeError: 'Tickets' object has no attribute 'table_id'
+2020-04-19 22:57:49,553:WARNING:Not Found: /favicon.ico
+2020-04-19 22:59:08,882:ERROR:Internal Server Error: /admin-site/event-details/36989
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ajitesh/ercess-live/ercess-live/admin_panel/views.py", line 1782, in post
+    ticket_name : get_ticket.table_id,
+AttributeError: 'Tickets' object has no attribute 'table_id'
+2020-04-19 23:00:20,410:ERROR:Internal Server Error: /admin-site/event-details/36989
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ajitesh/ercess-live/ercess-live/admin_panel/views.py", line 1783, in post
+    amount : request.POST.get('amount'),
+NameError: name 'amount' is not defined
+2020-04-19 23:05:04,624:ERROR:Internal Server Error: /admin-site/event-details/36989
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ajitesh/ercess-live/ercess-live/admin_panel/views.py", line 1784, in post
+    discount_amt : request.POST.get('amount'),
+NameError: name 'discount_amt' is not defined
+2020-04-19 23:10:36,298:ERROR:Internal Server Error: /admin-site/event-details/36989
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ajitesh/ercess-live/ercess-live/admin_panel/views.py", line 1795, in post
+    return redirect('admin-panel:details')
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/shortcuts.py", line 58, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/shortcuts.py", line 148, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/urls/resolvers.py", line 622, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'details' with no arguments not found. 1 pattern(s) tried: ['admin-site/event\\-details\\/(?P<event_id>[0-9]+)$']
+2020-04-19 23:12:07,304:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 23:12:07,401:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 23:17:29,026:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 23:17:29,121:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 23:17:50,648:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 23:17:50,756:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 23:19:01,582:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 23:19:01,759:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 23:19:11,029:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 23:19:11,049:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 23:24:00,666:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 23:24:00,711:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 23:24:10,821:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 23:24:10,954:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 23:25:13,738:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 23:25:13,768:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 23:26:26,700:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 23:26:26,798:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 23:26:37,094:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 23:26:37,218:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-19 23:28:38,321:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-19 23:28:38,434:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-22 09:20:09,384:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-22 09:20:09,432:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-22 09:20:16,987:WARNING:Not Found: /media/helloNEW-event--20202020-37006-thumbnail.jpg
+2020-04-22 09:20:17,086:WARNING:Not Found: /media/helloNEW-event--20202020-37006-banner.jpg
+2020-04-22 09:29:32,924:ERROR:Internal Server Error: /admin-site/event-details/37006
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endfor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 154, in _get_response
+    response = response.render()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/renderers.py", line 171, in render
+    template = self.resolve_template(template_names)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/renderers.py", line 181, in resolve_template
+    return loader.select_template(template_names)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/defaulttags.py", line 951, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 506: 'endfor', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag?
+2020-04-22 09:29:33,974:WARNING:Not Found: /favicon.ico
+2020-04-22 09:29:48,802:WARNING:Not Found: /media/helloNEW-event--20202020-37006-banner.jpg
+2020-04-22 09:29:48,812:WARNING:Not Found: /media/helloNEW-event--20202020-37006-thumbnail.jpg
+2020-04-22 09:30:02,769:WARNING:Not Found: /media/helloNEW-event--20202020-37006-thumbnail.jpg
+2020-04-22 09:30:02,831:WARNING:Not Found: /media/helloNEW-event--20202020-37006-banner.jpg
+2020-04-22 09:30:11,555:ERROR:Internal Server Error: /admin-site/event-details/37006
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endfor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 154, in _get_response
+    response = response.render()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/renderers.py", line 171, in render
+    template = self.resolve_template(template_names)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/renderers.py", line 181, in resolve_template
+    return loader.select_template(template_names)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 512: 'endfor', expected 'endblock'. Did you forget to register or load this tag?
+2020-04-22 09:30:12,756:WARNING:Not Found: /favicon.ico
+2020-04-22 09:30:24,055:WARNING:Not Found: /media/helloNEW-event--20202020-37006-thumbnail.jpg
+2020-04-22 09:30:24,109:WARNING:Not Found: /media/helloNEW-event--20202020-37006-banner.jpg
+2020-04-22 09:30:37,782:ERROR:Internal Server Error: /admin-site/event-details/37006
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 154, in _get_response
+    response = response.render()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/renderers.py", line 178, in render
+    return template.render(context, request=request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/test/utils.py", line 96, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/test/utils.py", line 96, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/urls/resolvers.py", line 622, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'details' with keyword arguments '{'event_id': ''}' not found. 1 pattern(s) tried: ['admin-site/event\\-details\\/(?P<event_id>[0-9]+)$']
+2020-04-22 09:30:38,838:WARNING:Not Found: /favicon.ico
+2020-04-22 09:30:46,223:WARNING:Not Found: /media/helloNEW-event--20202020-37006-thumbnail.jpg
+2020-04-22 09:30:46,249:WARNING:Not Found: /media/helloNEW-event--20202020-37006-banner.jpg
+2020-04-22 09:31:05,639:WARNING:Not Found: /media/helloNEW-event--20202020-37006-thumbnail.jpg
+2020-04-22 09:31:05,692:WARNING:Not Found: /media/helloNEW-event--20202020-37006-banner.jpg
+2020-04-22 09:36:14,328:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-22 09:36:14,392:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-22 09:37:26,120:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-22 09:37:26,177:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-22 09:37:43,610:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-22 09:37:43,646:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-22 09:38:29,939:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-22 09:38:29,979:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-22 09:39:20,343:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-22 09:39:20,407:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-22 09:39:38,673:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-22 09:39:38,774:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-22 09:42:02,923:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-22 09:42:02,954:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-22 09:46:11,578:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-22 09:46:11,639:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-22 09:46:55,076:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-22 09:46:55,092:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-22 09:48:36,514:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-22 09:48:36,586:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-22 09:49:02,884:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-22 09:49:02,903:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-22 10:33:02,049:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-22 10:33:02,119:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-22 10:34:00,028:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-22 10:34:00,072:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-23 21:17:08,249:WARNING:Not Found: /media/maha-shivratri-event--123-36999-thumbnail.jpg
+2020-04-23 21:17:08,295:WARNING:Not Found: /media/maha-shivratri-event--123-36999-banner.jpg
+2020-04-23 22:03:39,147:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-23 22:03:39,207:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-23 22:03:45,337:WARNING:Not Found: /media/short-url-testing-event-hjsa-36995-thumbnail.jpg
+2020-04-23 22:03:45,406:WARNING:Not Found: /media/short-url-testing-event-hjsa-36995-banner.jpg
+2020-04-23 22:03:54,027:WARNING:Not Found: /media/helloNEW-event--20202020-37006-thumbnail.jpg
+2020-04-23 22:03:54,081:WARNING:Not Found: /media/helloNEW-event--20202020-37006-banner.jpg
+2020-04-23 22:32:40,120:WARNING:Not Found: /media/maha-shivratri-event--123-36999-banner.jpg
+2020-04-23 22:32:40,135:WARNING:Not Found: /media/maha-shivratri-event--123-36999-thumbnail.jpg
+2020-04-23 22:32:59,370:WARNING:Not Found: /media/maha-shivratri-event--123-36999-thumbnail.jpg
+2020-04-23 22:32:59,427:WARNING:Not Found: /media/maha-shivratri-event--123-36999-banner.jpg
+2020-04-23 22:33:18,970:WARNING:Not Found: /media/maha-shivratri-event--123-36999-thumbnail.jpg
+2020-04-23 22:33:19,031:WARNING:Not Found: /media/maha-shivratri-event--123-36999-banner.jpg
+2020-04-23 22:33:53,501:WARNING:Not Found: /media/maha-shivratri-event--123-36999-thumbnail.jpg
+2020-04-23 22:33:53,604:WARNING:Not Found: /media/maha-shivratri-event--123-36999-banner.jpg
+2020-04-23 22:34:19,945:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-23 22:34:20,017:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-23 22:35:31,604:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-23 22:35:31,655:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-23 22:36:47,901:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-23 22:36:47,952:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-23 22:37:04,130:WARNING:Not Found: /media/testing-event--5-36989-thumbnail.jpg
+2020-04-23 22:37:04,195:WARNING:Not Found: /media/testing-event--5-36989-banner.jpg
+2020-04-23 23:12:08,731:WARNING:Not Found: /media/maha-shivratri-event--123-36999-thumbnail.jpg
+2020-04-23 23:12:08,771:WARNING:Not Found: /media/maha-shivratri-event--123-36999-banner.jpg
+2020-04-23 23:12:18,476:WARNING:Not Found: /media/maha-shivratri-event--123-36999-thumbnail.jpg
+2020-04-23 23:12:18,491:WARNING:Not Found: /media/maha-shivratri-event--123-36999-banner.jpg
+2020-04-23 23:12:44,372:WARNING:Not Found: /media/maha-shivratri-event--123-36999-thumbnail.jpg
+2020-04-23 23:12:44,441:WARNING:Not Found: /media/maha-shivratri-event--123-36999-banner.jpg
+2020-04-23 23:14:04,362:WARNING:Not Found: /media/maha-shivratri-event--123-36999-banner.jpg
+2020-04-23 23:14:04,437:WARNING:Not Found: /media/maha-shivratri-event--123-36999-thumbnail.jpg
+2020-04-23 23:36:10,267:WARNING:Not Found: /online-events/Organic/TEST EVENT FOR NOTIFICATION/36973
+2020-04-23 23:36:10,562:WARNING:Not Found: /favicon.ico
+2020-05-19 17:48:10,241:WARNING:Not Found: /api/v1/events_in/Chennai/Tamil Nadu
+2020-05-19 17:48:28,656:WARNING:Not Found: /api/v1/
+2020-05-19 17:48:46,533:WARNING:Not Found: /api/v1/home
+2020-05-19 17:49:20,711:WARNING:Not Found: /live/dashboard/api/v1/home
+2020-05-19 17:50:08,432:WARNING:Not Found: /live/dashboard/api/v1/home
+2020-05-19 18:17:25,645:WARNING:Not Found: /api/home/
+2020-05-19 18:17:44,350:WARNING:Not Found: /api/home
+2020-05-19 18:17:54,517:ERROR:Internal Server Error: /api/v1/home
+Traceback (most recent call last):
+  File "/home/ajitesh/ercess-live/ercess-live/api/views.py", line 9, in get
+    categories = CategorizedEvent.objects.all()
+NameError: name 'CategorizedEvent' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ajitesh/ercess-live/ercess-live/api/views.py", line 13, in get
+    return Response({"message":e},status=status.HTTP_400_BAD_REQUEST)
+NameError: name 'Response' is not defined
+2020-05-19 18:18:59,725:ERROR:Internal Server Error: /api/v1/home
+Traceback (most recent call last):
+  File "/home/ajitesh/ercess-live/ercess-live/api/views.py", line 21, in get
+    categories = CategorizedEvent.objects.all()
+NameError: name 'CategorizedEvent' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ajitesh/ercess-live/ercess-live/api/views.py", line 25, in get
+    return Response({"message":e},status=status.HTTP_400_BAD_REQUEST)
+NameError: name 'status' is not defined
+2020-05-19 18:20:39,504:ERROR:Internal Server Error: /api/v1/home
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 154, in _get_response
+    response = response.render()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/renderers.py", line 107, in render
+    allow_nan=not self.strict, separators=separators
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/utils/json.py", line 28, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.6/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.6/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.6/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/utils/encoders.py", line 68, in default
+    return super(JSONEncoder, self).default(obj)
+  File "/usr/lib/python3.6/json/encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'NameError' is not JSON serializable
+2020-05-19 18:21:02,429:WARNING:Bad Request: /api/v1/home
+2020-05-19 18:28:10,384:ERROR:Internal Server Error: /api/v1/events_in/Bengaluru/Karnatak
+Traceback (most recent call last):
+  File "/home/ajitesh/ercess-live/ercess-live/api/views.py", line 97, in get
+    categories = CategorizedEvent.objects.all()
+NameError: name 'CategorizedEvent' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ajitesh/ercess-live/ercess-live/api/views.py", line 113, in get
+    return Response({"message":e},status=status.HTTP_400_BAD_REQUEST)
+NameError: name 'e' is not defined
+2020-05-19 18:28:46,963:ERROR:Internal Server Error: /api/v1/events_in/Bengaluru/Karnataka
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 154, in _get_response
+    response = response.render()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/renderers.py", line 107, in render
+    allow_nan=not self.strict, separators=separators
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/utils/json.py", line 28, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.6/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.6/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.6/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/utils/encoders.py", line 68, in default
+    return super(JSONEncoder, self).default(obj)
+  File "/usr/lib/python3.6/json/encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'NameError' is not JSON serializable
+2020-05-19 18:29:00,943:ERROR:Internal Server Error: /api/v1/events_in/Bengaluru/Karnataka
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 154, in _get_response
+    response = response.render()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/renderers.py", line 107, in render
+    allow_nan=not self.strict, separators=separators
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/utils/json.py", line 28, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.6/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.6/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.6/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/utils/encoders.py", line 68, in default
+    return super(JSONEncoder, self).default(obj)
+  File "/usr/lib/python3.6/json/encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'NameError' is not JSON serializable
+2020-05-19 18:29:28,273:WARNING:Bad Request: /api/v1/events_in/Bengaluru/Karnataka
+2020-05-19 18:29:42,259:WARNING:Bad Request: /api/v1/events_in/Bengaluru/Karnataka
+2020-05-19 18:30:10,490:WARNING:Bad Request: /api/v1/events_in/Bengaluru/Karnataka
+2020-05-19 18:30:41,725:WARNING:Bad Request: /api/v1/events_in/Bengaluru/Karnataka
+2020-05-19 18:30:42,169:WARNING:Bad Request: /api/v1/events_in/Bengaluru/Karnataka
+2020-05-19 18:30:42,794:WARNING:Bad Request: /api/v1/events_in/Bengaluru/Karnataka
+2020-05-19 18:31:26,433:WARNING:Bad Request: /api/v1/events_in/Bengaluru/Karnataka
+2020-05-19 18:31:54,480:WARNING:Bad Request: /api/v1/events_in/Bengaluru/Karnataka
+2020-05-19 18:33:47,758:WARNING:Bad Request: /api/v1/events_in/Bengaluru/Karnataka
+2020-05-19 18:34:26,005:WARNING:Bad Request: /api/v1/events_in/Bengaluru/Karnataka
+2020-05-19 18:35:17,445:WARNING:Bad Request: /api/v1/events_in/Bengaluru/Karnataka
+2020-05-19 18:35:35,981:WARNING:Bad Request: /api/v1/events_in/Bengaluru/Karnataka
+2020-05-19 18:35:55,373:WARNING:Bad Request: /api/v1/events_in/Bengaluru/Karnataka
+2020-05-19 18:36:14,699:WARNING:Bad Request: /api/v1/events_in/Bengaluru/Karnataka
+2020-05-19 18:43:09,089:WARNING:Bad Request: /api/v1/events_in/Bengaluru/Karnataka
+2020-05-19 18:44:01,453:WARNING:Bad Request: /api/v1/events_in/Bengaluru/Karnataka
+2020-05-19 18:57:22,817:WARNING:Not Found: /api/v1/index
+2020-05-19 19:28:30,680:WARNING:Not Found: /api/v1/Business-Events/
+2020-05-19 19:29:03,877:WARNING:Not Found: /api/v1/Business-Events/
+2020-05-19 19:29:29,901:ERROR:Internal Server Error: /api/v1/Arts-events/
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 154, in _get_response
+    response = response.render()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/renderers.py", line 107, in render
+    allow_nan=not self.strict, separators=separators
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/utils/json.py", line 28, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.6/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.6/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.6/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/utils/encoders.py", line 68, in default
+    return super(JSONEncoder, self).default(obj)
+  File "/usr/lib/python3.6/json/encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'NameError' is not JSON serializable
+2020-05-19 19:30:03,755:WARNING:Bad Request: /api/v1/Arts-events/
+2020-05-19 19:30:17,671:WARNING:Bad Request: /api/v1/Arts-events/
+2020-05-19 19:30:39,611:WARNING:Bad Request: /api/v1/Arts-events/
+2020-05-19 19:31:12,756:WARNING:Bad Request: /api/v1/Arts-events/
+2020-05-19 19:31:31,890:WARNING:Bad Request: /api/v1/Arts-events/
+2020-05-19 19:32:14,893:WARNING:Bad Request: /api/v1/Arts-events/
+2020-05-19 19:32:56,078:WARNING:Bad Request: /api/v1/Arts-events/
+2020-05-19 19:33:43,551:WARNING:Bad Request: /api/v1/Arts-events/
+2020-05-19 19:36:05,460:WARNING:Bad Request: /api/v1/Arts-events/
+2020-05-19 19:36:15,816:WARNING:Bad Request: /api/v1/Arts-events/
+2020-05-19 19:37:00,244:WARNING:Bad Request: /api/v1/Arts-events/
+2020-05-19 19:37:55,333:WARNING:Bad Request: /api/v1/Arts-events/
+2020-05-19 19:38:23,730:WARNING:Bad Request: /api/v1/Arts-events/
+2020-05-19 19:39:15,845:WARNING:Bad Request: /api/v1/Arts-events/
+2020-05-19 19:40:09,746:WARNING:Bad Request: /api/v1/Arts-events/
+2020-05-19 19:40:52,997:WARNING:Bad Request: /api/v1/Arts-events/
+2020-05-19 19:41:15,712:WARNING:Bad Request: /api/v1/Arts-events/
+2020-05-19 19:41:56,700:WARNING:Bad Request: /api/v1/Arts-events/
+2020-05-19 19:47:06,878:WARNING:Bad Request: /api/v1/Arts-events/
+2020-05-19 19:47:51,458:WARNING:Bad Request: /api/v1/Business-events/
+2020-05-19 19:48:08,460:WARNING:Bad Request: /api/v1/Business-events/
+2020-05-19 19:48:53,204:WARNING:Bad Request: /api/v1/Business-events/
+2020-05-19 19:49:44,356:WARNING:Bad Request: /api/v1/Business-events/
+2020-05-19 19:50:02,442:WARNING:Bad Request: /api/v1/Business-events/
+2020-05-19 19:55:18,995:ERROR:Internal Server Error: /api/v1/Family & Kid-events/
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 154, in _get_response
+    response = response.render()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/renderers.py", line 107, in render
+    allow_nan=not self.strict, separators=separators
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/utils/json.py", line 28, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.6/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.6/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.6/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/utils/encoders.py", line 68, in default
+    return super(JSONEncoder, self).default(obj)
+  File "/usr/lib/python3.6/json/encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'DoesNotExist' is not JSON serializable
+2020-05-19 19:56:42,786:ERROR:Internal Server Error: /api/v1/Family & Kid-events/
+Traceback (most recent call last):
+  File "/home/ajitesh/ercess-live/ercess-live/api/views.py", line 120, in get
+    category_obj = Categories.objects.get(category=categoryname)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+dashboard.models.Categories.DoesNotExist: Categories matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ajitesh/ercess-live/ercess-live/api/views.py", line 147, in get
+    return Response({error_response},status=status.HTTP_400_BAD_REQUEST)
+TypeError: unhashable type: 'dict'
+2020-05-19 19:56:56,022:WARNING:Bad Request: /api/v1/Family & Kid-events/
+2020-05-19 20:58:58,217:ERROR:Internal Server Error: /api/v1/Warud/sarthak 90964176/36827
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: get() missing 1 required positional argument: 'source'
+2020-05-19 20:59:15,098:WARNING:Bad Request: /api/v1/Warud/sarthak 90964176/36827
+2020-05-19 20:59:28,889:WARNING:Bad Request: /api/v1/Warud/sarthak 90964176/36827
+2020-05-19 21:00:52,865:WARNING:Bad Request: /api/v1/Warud/sarthak 90964176/36827
+2020-05-19 21:01:05,066:WARNING:Bad Request: /api/v1/Warud/sarthak 90964176/36827
+2020-05-19 21:17:57,967:ERROR:Internal Server Error: /api/v1/Warud/sarthak 90964176/36827
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: get() got an unexpected keyword argument 'cityname'
+2020-05-19 21:18:38,169:WARNING:Not Found: /api/v1/sarthak 90964176/36827
+2020-05-19 22:58:10,533:ERROR:Internal Server Error: /api/v1/booking/organic/36827
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/fields.py", line 453, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/fields.py", line 101, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'QuerySet' object has no attribute 'ticket_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ajitesh/ercess-live/ercess-live/api/views.py", line 277, in get
+    response_data['tickets'] = tickets_objs_serializer.data
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/serializers.py", line 563, in data
+    ret = super(Serializer, self).data
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/serializers.py", line 517, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/fields.py", line 474, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `ticket_name` on serializer `TicketsSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `QuerySet` instance.
+Original exception text was: 'QuerySet' object has no attribute 'ticket_name'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ajitesh/ercess-live/ercess-live/api/views.py", line 281, in get
+    print(e)
+NameError: name 'e' is not defined
+2020-05-19 22:58:28,425:WARNING:Bad Request: /api/v1/booking/organic/36827
+2020-05-19 23:00:53,200:WARNING:Bad Request: /api/v1/booking/organic/36827
+2020-05-19 23:01:37,747:WARNING:Bad Request: /api/v1/booking/organic/36827
+2020-05-19 23:04:14,709:WARNING:Bad Request: /api/v1/booking/organic/37006
+2020-05-19 23:09:28,752:WARNING:Bad Request: /api/v1/booking/organic/37006
+2020-05-19 23:09:57,806:WARNING:Bad Request: /api/v1/booking/organic/37006
+2020-05-19 23:10:26,787:WARNING:Bad Request: /api/v1/booking/organic/37006
+2020-05-19 23:12:53,279:WARNING:Bad Request: /api/v1/booking/organic/37006
+2020-05-19 23:19:59,810:WARNING:Bad Request: /api/v1/booking/organic/37006
+2020-05-19 23:30:39,995:WARNING:Bad Request: /api/v1/booking/organic/37006
+2020-05-22 00:24:28,508:WARNING:Bad Request: /api/v1/booking/organic/37006
+2020-05-22 00:33:13,201:WARNING:Bad Request: /api/v1/booking/organic/37006
+2020-05-22 00:33:51,240:WARNING:Bad Request: /api/v1/booking/organic/37006
+2020-05-22 00:34:19,979:WARNING:Bad Request: /api/v1/booking/organic/37006
+2020-05-22 00:34:46,657:WARNING:Bad Request: /api/v1/booking/organic/37006
+2020-05-22 00:35:08,492:WARNING:Bad Request: /api/v1/booking/organic/37006
+2020-05-22 00:35:46,546:WARNING:Bad Request: /api/v1/booking/organic/37006
+2020-05-22 00:36:26,742:WARNING:Bad Request: /api/v1/booking/organic/37006
+2020-05-22 00:37:20,384:WARNING:Bad Request: /api/v1/booking/organic/37006
+2020-05-22 00:37:44,683:WARNING:Bad Request: /api/v1/booking/organic/37006
+2020-05-22 00:38:02,054:WARNING:Bad Request: /api/v1/booking/organic/37006
+2020-05-22 00:38:43,878:WARNING:Bad Request: /api/v1/booking/organic/37006
+2020-05-22 00:39:00,593:WARNING:Bad Request: /api/v1/booking/organic/37006
+2020-05-22 00:39:20,297:WARNING:Bad Request: /api/v1/booking/organic/37006
+2020-05-22 00:39:46,635:WARNING:Bad Request: /api/v1/booking/organic/37006
+2020-05-22 00:40:22,152:WARNING:Bad Request: /api/v1/booking/organic/37006
+2020-05-22 00:41:09,411:ERROR:Internal Server Error: /api/v1/booking/organic/37043
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ajitesh/ercess-live/ercess-live/api/views.py", line 246, in post
+    current_event = Articles2.objects.get(id=event_id)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+dashboard.models.Articles2.DoesNotExist: Articles2 matching query does not exist.
+2020-05-22 00:41:16,325:ERROR:Internal Server Error: /api/v1/booking/organic/37043
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ajitesh/ercess-live/ercess-live/api/views.py", line 325, in get
+    current_event = Articles2.objects.get(id=event_id)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+dashboard.models.Articles2.DoesNotExist: Articles2 matching query does not exist.
+2020-05-22 00:41:17,371:ERROR:Internal Server Error: /api/v1/booking/organic/37043
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ajitesh/ercess-live/ercess-live/api/views.py", line 325, in get
+    current_event = Articles2.objects.get(id=event_id)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+dashboard.models.Articles2.DoesNotExist: Articles2 matching query does not exist.
+2020-05-22 00:41:20,440:ERROR:Internal Server Error: /api/v1/booking/organic/37042
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ajitesh/ercess-live/ercess-live/api/views.py", line 325, in get
+    current_event = Articles2.objects.get(id=event_id)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+dashboard.models.Articles2.DoesNotExist: Articles2 matching query does not exist.
+2020-05-22 00:41:21,242:ERROR:Internal Server Error: /api/v1/booking/organic/37042
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ajitesh/ercess-live/ercess-live/api/views.py", line 325, in get
+    current_event = Articles2.objects.get(id=event_id)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+dashboard.models.Articles2.DoesNotExist: Articles2 matching query does not exist.
+2020-05-22 00:42:02,335:ERROR:Internal Server Error: /api/v1/booking/organic/37021
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 154, in _get_response
+    response = response.render()
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/renderers.py", line 107, in render
+    allow_nan=not self.strict, separators=separators
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/utils/json.py", line 28, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.6/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.6/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.6/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/utils/encoders.py", line 68, in default
+    return super(JSONEncoder, self).default(obj)
+  File "/usr/lib/python3.6/json/encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'StatusPromotionTicketing' is not JSON serializable
+2020-05-22 00:45:30,249:WARNING:Bad Request: /api/v1/booking/organic/37021
+2020-05-22 00:47:03,142:WARNING:Bad Request: /api/v1/booking/organic/37021
+2020-05-22 00:47:30,684:WARNING:Bad Request: /api/v1/booking/organic/37021
+2020-05-22 00:48:12,091:WARNING:Bad Request: /api/v1/booking/organic/37021
+2020-05-22 00:49:59,958:WARNING:Bad Request: /api/v1/booking/organic/37021
+2020-05-22 00:50:24,705:WARNING:Bad Request: /api/v1/booking/organic/37021
+2020-05-22 00:50:44,819:WARNING:Bad Request: /api/v1/booking/organic/37021
+2020-05-22 00:55:42,024:WARNING:Bad Request: /api/v1/booking/organic/37021
+2020-05-22 00:56:02,593:WARNING:Bad Request: /api/v1/booking/organic/37021
+2020-05-22 00:56:40,822:WARNING:Bad Request: /api/v1/booking/organic/37021
+2020-05-22 01:02:32,494:WARNING:Bad Request: /api/v1/booking/organic/37021
+2020-05-22 01:02:56,618:WARNING:Bad Request: /api/v1/booking/organic/37021
+2020-05-22 01:08:50,480:WARNING:Bad Request: /api/v1/booking/organic/37006
+2020-05-22 01:09:16,872:WARNING:Bad Request: /api/v1/booking/organic/37006
+2020-05-22 01:09:43,940:WARNING:Bad Request: /api/v1/booking/organic/37006
+2020-05-22 01:39:53,561:ERROR:Internal Server Error: /api/v1/Arts
+Traceback (most recent call last):
+  File "/home/ajitesh/ercess-live/ercess-live/api/views.py", line 145, in get
+    subcategory_list_serializer = TopicsSerializer(subcategory_list,many=True)
+NameError: name 'TopicsSerializer' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ajitesh/ercess-live/ercess-live/api/views.py", line 149, in get
+    return Response({"message":e.message},status=status.HTTP_400_BAD_REQUEST)
+AttributeError: 'NameError' object has no attribute 'message'
+2020-05-22 01:40:08,922:WARNING:Bad Request: /api/v1/Arts
+2020-05-22 01:46:04,467:WARNING:Bad Request: /api/v1/Mentorship
+2020-05-22 01:46:44,629:WARNING:Bad Request: /api/v1/Funding & Investment
+2020-05-22 01:47:00,629:WARNING:Bad Request: /api/v1/Funding & Investment
+2020-05-22 01:47:30,367:WARNING:Bad Request: /api/v1/Funding & Investment
+2020-05-22 01:47:54,730:WARNING:Bad Request: /api/v1/Funding & Investment
+2020-05-22 01:49:28,096:WARNING:Bad Request: /api/v1/Art and Culture
+2020-05-22 01:52:34,830:WARNING:Not Found: /api/v1/Blood donation/
+2020-05-22 01:53:24,221:WARNING:Bad Request: /api/v1/Family & Kids/Workshop
+2020-05-22 02:00:10,823:WARNING:Not Found: /api/v1/online/Family & Kids/
+2020-05-22 02:00:36,751:WARNING:Not Found: /api/v1/online/Family & Kids/
+2020-05-22 02:02:07,414:WARNING:Not Found: /api/v1/online/Family & Kids/
+2020-05-22 02:02:21,636:WARNING:Not Found: /api/v1/online/Arts/
+2020-05-22 02:02:46,805:WARNING:Not Found: /api/v1/online/Business/
+2020-05-23 13:50:40,022:WARNING:Not Found: /api/v1/online/
+2020-05-24 03:15:37,632:ERROR:Internal Server Error: /ercess-api/v1/signup
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/fields.py", line 453, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/fields.py", line 101, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'UserForm' object has no attribute 'firstname'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ajitesh/ercess-live/ercess-live/ercess_api/views.py", line 41, in get
+    return Response(user_form_serialized.data,status=status.HTTP_200_OK)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/serializers.py", line 563, in data
+    ret = super(Serializer, self).data
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/serializers.py", line 517, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/fields.py", line 474, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `firstname` on serializer `UserFormSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `UserForm` instance.
+Original exception text was: 'UserForm' object has no attribute 'firstname'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/fields.py", line 453, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/fields.py", line 101, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'UserForm' object has no attribute 'firstname'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ajitesh/ercess-live/ercess-live/ercess_api/views.py", line 44, in get
+    return Response(user_form_serialized.data,status=status.HTTP_400_BAD_REQUEST)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/serializers.py", line 563, in data
+    ret = super(Serializer, self).data
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/serializers.py", line 517, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/fields.py", line 474, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `firstname` on serializer `UserFormSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `UserForm` instance.
+Original exception text was: 'UserForm' object has no attribute 'firstname'.
+2020-05-24 03:34:04,315:ERROR:Internal Server Error: /ercess-api/v1/signup
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/fields.py", line 453, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/fields.py", line 101, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'UserForm' object has no attribute 'firstname'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ajitesh/ercess-live/ercess-live/ercess_api/views.py", line 71, in get
+    return Response(user_form_serialized.data,status=status.HTTP_200_OK)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/serializers.py", line 563, in data
+    ret = super(Serializer, self).data
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/serializers.py", line 517, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/fields.py", line 474, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `firstname` on serializer `UserFormSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `UserForm` instance.
+Original exception text was: 'UserForm' object has no attribute 'firstname'.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/fields.py", line 453, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/fields.py", line 101, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'UserForm' object has no attribute 'firstname'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ajitesh/ercess-live/ercess-live/ercess_api/views.py", line 74, in get
+    return Response(user_form_serialized.data,status=status.HTTP_400_BAD_REQUEST)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/serializers.py", line 563, in data
+    ret = super(Serializer, self).data
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/serializers.py", line 517, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/fields.py", line 474, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `firstname` on serializer `UserFormSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `UserForm` instance.
+Original exception text was: 'UserForm' object has no attribute 'firstname'.
+2020-05-24 03:35:51,269:ERROR:Internal Server Error: /ercess-api/v1/signup
+Traceback (most recent call last):
+  File "/home/ajitesh/ercess-live/ercess-live/ercess_api/views.py", line 25, in post
+    pswd_encoded = hashlib.md5(passVal.encode('utf-8')).hexdigest()
+NameError: name 'hashlib' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ajitesh/ercess-live/ercess-live/ercess_api/views.py", line 41, in post
+    print(e)
+NameError: name 'e' is not defined
+2020-05-24 03:36:03,347:ERROR:Internal Server Error: /ercess-api/v1/signup
+Traceback (most recent call last):
+  File "/home/ajitesh/ercess-live/ercess-live/ercess_api/views.py", line 25, in post
+    pswd_encoded = hashlib.md5(passVal.encode('utf-8')).hexdigest()
+NameError: name 'hashlib' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ajitesh/ercess-live/ercess-live/ercess_api/views.py", line 42, in post
+    return Response(status=status.HTTP_400_BAD_REQUEST)
+NameError: name 'status' is not defined
+2020-05-24 03:36:41,400:WARNING:Bad Request: /ercess-api/v1/signup
+2020-05-24 03:37:09,469:WARNING:Bad Request: /ercess-api/v1/signup
+2020-05-24 03:39:58,691:WARNING:Bad Request: /ercess-api/v1/signup
+2020-05-24 03:40:22,196:WARNING:Bad Request: /ercess-api/v1/signup
+2020-05-24 03:40:40,575:WARNING:Bad Request: /ercess-api/v1/signup
+2020-05-24 03:40:46,234:WARNING:Bad Request: /ercess-api/v1/signup
+2020-05-24 03:41:04,551:WARNING:Bad Request: /ercess-api/v1/signup
+2020-05-24 04:00:47,911:WARNING:Bad Request: /ercess-api/v1/signup
+2020-05-24 04:01:02,906:WARNING:Bad Request: /ercess-api/v1/signup
+2020-05-24 04:03:33,725:WARNING:Bad Request: /ercess-api/v1/signup
+2020-05-24 04:44:52,227:WARNING:Not Found: /ercess_api/v1/signup
+2020-05-24 04:45:13,446:WARNING:Bad Request: /ercess-api/v1/signup
+2020-05-24 04:46:08,845:WARNING:Bad Request: /ercess-api/v1/signup
+2020-05-24 04:46:22,222:WARNING:Bad Request: /ercess-api/v1/signup
+2020-05-24 04:46:42,470:WARNING:Bad Request: /ercess-api/v1/signup
+2020-05-24 04:46:42,783:WARNING:Bad Request: /ercess-api/v1/signup
+2020-05-24 04:50:40,199:ERROR:Internal Server Error: /ercess-api/v1/signup
+Traceback (most recent call last):
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ajitesh/.local/lib/python3.6/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/ajitesh/ercess-live/ercess-live/ercess_api/views.py", line 18, in post
+    fnameVal = request.data['firstname']
+KeyError: 'firstname'
+2020-05-24 04:51:59,247:WARNING:Bad Request: /ercess-api/v1/signup
+2020-05-24 04:56:17,037:WARNING:Bad Request: /ercess-api/v1/signup
+2020-05-25 03:32:29,354:WARNING:Not Found: /ercess-api/v1/signup
+2020-05-25 03:43:44,925:WARNING:Not Found: /ercess-api/v1/signup
+2020-05-25 03:43:45,722:WARNING:Not Found: /ercess-api/v1/signup
+2020-05-25 04:15:12,263:WARNING:Bad Request: /ercess-api/v1/signup
+2020-05-25 04:16:45,420:WARNING:Conflict: /ercess-api/v1/signup
+2020-05-25 04:19:59,147:WARNING:Conflict: /ercess-api/v1/signup
+2020-05-25 04:20:48,841:WARNING:Conflict: /ercess-api/v1/signup

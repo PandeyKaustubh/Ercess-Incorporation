@@ -1,0 +1,69 @@
+{% load static %}
+<footer class="footer-standard-dark bg-extra-dark-gray">
+    <div class="footer-widget-area padding-five-tb xs-padding-30px-tb">
+        <div class="container">
+            <div class="row equalize xs-equalize-auto">
+                <div class="col-md-3 col-sm-6 col-xs-12 widget border-right border-color-medium-dark-gray sm-no-border-right sm-margin-30px-bottom xs-text-center">
+                    <a href="{% url 'home' %}" class="margin-20px-bottom display-inline-block"><img class="footer-logo" src="{% static 'images/logo.png' %}" data-rjs="{% static 'images/logo.png' %}" alt="Ercess Live"></a>
+                    <p class="text-small width-95 xs-width-100">Ercess Live is world's first community tool to increase your event revenue and build your brand.</p>
+                    <div class="social-icon-style-8 display-inline-block vertical-align-middle">
+                        <ul class="small-icon no-margin-bottom">
+                            <li><a class="facebook text-white" href="https://www.facebook.com/ErcessLive/" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                            <li><a class="twitter text-white" href="https://twitter.com/ErcessLive" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                            <li><a class="instagram text-white" href="https://www.instagram.com/ercess.live/" target="_blank"><i class="fab fa-instagram no-margin-right" aria-hidden="true"></i></a></li>
+                            <li><a class="linkedin text-white" href="https://www.linkedin.com/company/ercess-inc-/" target="_blank"><i class="fab fa-linkedin no-margin-right" aria-hidden="true"></i></a></li>
+                            <li><a class="pinterest text-white" href="https://www.pinterest.com/ercesslive/" target="_blank"><i class="fab fa-pinterest no-margin-right" aria-hidden="true"></i></a></li>
+                            <li><a class="tumblr text-white" href="https://ercesslive.tumblr.com/" target="_blank"><i class="fab fa-tumblr no-margin-right" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 widget border-right border-color-medium-dark-gray padding-45px-left sm-padding-15px-left sm-no-border-right sm-margin-30px-bottom xs-text-center">
+                    <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-10px-bottom font-weight-600">Company</div>
+                    <ul class="list-unstyled">
+                        <li><a href="{% url 'about-us' %}">About us</a></li>
+                        <li><a href="{% url 'contact-us' %}">Contact us</a></li>
+                        <!-- <li><a href="{% url 'blog' %}">Blog</a></li> -->
+                        <li><a href="{% url 'careers' %}">Career</a></li>
+                        <li>&nbsp;</li>
+                        <li>&nbsp;</li>
+                        <li>&nbsp;</li>
+                        <!-- <li><a href="http://ercess.com/live/payment-policy">Payment Policy</a></li> -->
+                        <!-- <li><a href="http://ercess.com/live/data-protection">Data Protection</a></li> -->
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 widget border-right border-color-medium-dark-gray padding-45px-left sm-padding-15px-left sm-clear-both sm-no-border-right  xs-margin-30px-bottom xs-text-center">
+                    <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-10px-bottom font-weight-600">For Organizers</div>
+                    <ul class="list-unstyled">
+                        <li><a href="{% url 'how-it-works' %}">How it works</a></li>
+                        <li><a href="{% url 'pricing' %}">Pricing</a></li>
+                        <li><a href="{% url 'partners' %}">Partners</a></li>
+                        <li><a href="{% url 'dashboard:step_one' %}">Create event</a></li>
+                        <li>&nbsp;</li>
+                        <li>&nbsp;</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 widget padding-45px-left sm-padding-15px-left sm-clear-both sm-no-border-right  xs-margin-30px-bottom xs-text-center">
+                    <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-10px-bottom font-weight-600">Our offerings</div>
+                    <ul class="list-unstyled">
+                        <li><a href="{% url 'multichannel-promotion' %}">Multichannel promotion</a></li>
+                        <li><a href="{% url 'sell-event-stalls' %}">Sell stall spaces</a></li>
+                        <li><a href="{% url 'advertisement' %}">Marketing</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-dark-footer padding-50px-tb xs-padding-30px-tb">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-sm-6 col-xs-12 text-small">
+                    All rights reserved 2016 - Ercess Live by Ercess Inc.
+                </div>
+                <div class="col-md-7 col-sm-6 col-xs-12 text-right text-small xs-text-center">
+                    <!-- <a href="jhttp://ercess.com/live/" class="text-dark-gray">Terms and Conditions</a>&nbsp;&nbsp;|&nbsp;&nbsp; --><a href="http://ercess.com/live/privacy-policy" class="text-dark-gray">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<a class="scroll-top-arrow" href="javascript:void(0);"><i class="ti-arrow-up"></i></a>
