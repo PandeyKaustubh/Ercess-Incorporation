@@ -46,7 +46,7 @@ Now that you're more familiar with your Bitbucket repository, go ahead and add a
 
 # Ercess Live
 
-This repo is for the Ercess Website
+This repository is for the Ercess Website
 
 ## Repo Strategy
 
