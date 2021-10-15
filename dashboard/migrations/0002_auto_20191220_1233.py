@@ -11,18 +11,18 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.AlterModelOptions(
-            name='users',
-            options={},
-        ),
-        migrations.AlterField(
-            model_name='expectationsfeedbacks',
-            name='exp_timestamp',
-            field=models.DateTimeField(default=datetime.datetime(2019, 12, 20, 12, 33, 43, 150008)),
-        ),
-        migrations.AlterField(
-            model_name='expectationsfeedbacks',
-            name='feedback_timestamp',
-            field=models.DateTimeField(default=datetime.datetime(2019, 12, 20, 12, 33, 43, 150056)),
-        ),
+#         migrations.AlterModelOptions(
+#             name='users',
+#             options={},
+#         ),
+#         migrations.AlterField(
+#             model_name='expectationsfeedbacks',
+#             name='exp_timestamp',
+#             field=models.DateTimeField(default=datetime.datetime(2019, 12, 20, 12, 33, 43, 150008)),
+#         ),
+#         migrations.AlterField(
+#             model_name='expectationsfeedbacks',
+#             name='feedback_timestamp',
+#             field=models.DateTimeField(default=datetime.datetime(2019, 12, 20, 12, 33, 43, 150056)),
+#         ),
     ]
