@@ -101,17 +101,17 @@ WSGI_APPLICATION = 'Ercess.wsgi.application'
 
 
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'ercess',
-        'USER': 'root',
-        'PASSWORD': 'mysql12345',
-        # 'USER': config.get('section', 'db_user'),
-        # 'PASSWORD': config.get('section', 'db_pswd'),
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'ercess',
+#         'USER': 'root',
+#         'PASSWORD': 'mysql12345',
+#         # 'USER': config.get('section', 'db_user'),
+#         # 'PASSWORD': config.get('section', 'db_pswd'),
 
-    }
-}
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
