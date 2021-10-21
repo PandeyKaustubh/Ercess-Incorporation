@@ -16,7 +16,7 @@ django-pagedown==0.1.1
 djangorestframework==3.9.5
 gunicorn==19.9.0
 idna==2.6
-markdown2==2.3.7
+markdown2==2.4.0
 mysqlclient==1.4.6
 Naked==0.1.31
 Pillow==5.4.0
