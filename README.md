@@ -59,7 +59,6 @@ This repository is for the Ercess Website
 
 ## Technology
 Technology used: Django
-
 ## Maintainer
 Vishal Jaiswal
 
