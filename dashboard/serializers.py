@@ -21,3 +21,9 @@ class TicketDiscountsSerializer(serializers.ModelSerializer):
 	class Meta:
 		model = TicketDiscounts
 		fields = '__all__'
+
+
+# class PaymentSettlementSerializer(serializers.ModelSerializer):
+#     class Meta:
+#         model = PaymentSettlement
+#         fields = '__all__'		
