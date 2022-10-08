@@ -40,6 +40,7 @@ class SignUp(APIView):
                 return Response(messageData,status=status.HTTP_409_CONFLICT)
         except Exception as e:
             print(e)
+            #printing the exception occured
             return Response(status=status.HTTP_400_BAD_REQUEST)
 
 class VerificationMail(APIView):
@@ -55,4 +56,5 @@ class VerificationMail(APIView):
             return Response(messageData,status=status.HTTP_200_OK)
         except Exception as e:
             print(e)
+            #printing the exception
             return Response(status=status.HTTP_400_BAD_REQUEST)
