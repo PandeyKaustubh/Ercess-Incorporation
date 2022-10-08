@@ -3,7 +3,7 @@ import random
 from django.shortcuts import redirect
 from django.http import HttpResponse
 
-
+#get random string for url
 def get_random(tries=0):
     length = 5
     length += tries
